@@ -1,0 +1,2 @@
+# JustDoIt
+Bir Tasarım Çalışması 
