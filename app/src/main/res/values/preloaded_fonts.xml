@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/dm_sans_bold</item>
+        <item>@font/k2d_bold</item>
+        <item>@font/k2d_extralight</item>
+        <item>@font/k2d_light</item>
+        <item>@font/kumbh_sans_bold</item>
+    </array>
+</resources>

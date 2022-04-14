@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_boots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/buttonColor"
+        android:fontFamily="@font/k2d_bold"
+        android:text="@string/ayakkabiTuru1"
+        android:textAllCaps="false"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="16sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_sneakers"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nike_logo" />
+
+    <Button
+        android:id="@+id/button_sneakers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/buttonColor"
+        android:text="@string/ayakkabiTuru2"
+        android:textAllCaps="false"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="16sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_sandals"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_boots"
+        app:layout_constraintTop_toBottomOf="@+id/nike_logo" />
+
+    <Button
+        android:id="@+id/button_sandals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/buttonColor"
+        android:text="@string/ayakkabiTuru3"
+        android:textAllCaps="false"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="16sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_sneakers"
+        app:layout_constraintTop_toBottomOf="@+id/nike_logo" />
+
+    <ImageView
+        android:id="@+id/nike_logo"
+        android:layout_width="72dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nike_icon"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="21dp"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_search_icon"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/notification_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="32dp"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_notification_bell_icon"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/middle_square"
+        android:layout_width="346dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_sneakers"
+        app:srcCompat="@drawable/middle_square" />
+
+    <ImageView
+        android:id="@+id/middle_shoes"
+        android:layout_width="232dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="@+id/middle_square"
+        app:layout_constraintTop_toTopOf="@+id/middle_square"
+        app:srcCompat="@drawable/shoes"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_top1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:text="@string/mainText1"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/middle_square"
+        app:layout_constraintTop_toTopOf="@+id/middle_square"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_top2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:text="@string/mainText2"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/middle_square"
+        app:layout_constraintTop_toBottomOf="@+id/text_top1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/mainOrange"
+        android:fontFamily="@font/k2d_bold"
+        android:text="@string/order"
+        android:textAllCaps="false"
+        android:textColor="@color/orderButtonTextColor"
+        android:textSize="16sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintStart_toStartOf="@+id/middle_square"
+        app:layout_constraintTop_toBottomOf="@+id/text_top2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/k2d_bold"
+        android:text="@string/tops"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/button_boots"
+        app:layout_constraintTop_toBottomOf="@+id/middle_square" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/k2d_extralight"
+        android:text="@string/view"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/button_sandals"
+        app:layout_constraintTop_toBottomOf="@+id/middle_square" />
+
+    <ImageView
+        android:id="@+id/under_square2"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/under_square1"
+        app:layout_constraintTop_toBottomOf="@+id/text_view"
+        app:srcCompat="@drawable/alt_alan"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/under_square1"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/under_square2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_top"
+        app:srcCompat="@drawable/alt_alan"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/shoe_1"
+        android:layout_width="145dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="@+id/under_square1"
+        app:layout_constraintEnd_toStartOf="@+id/under_square1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/under_square1"
+        app:layout_constraintTop_toTopOf="@+id/under_square1"
+        app:srcCompat="@drawable/shoe_1" />
+
+    <ImageView
+        android:id="@+id/shoe_2"
+        android:layout_width="145dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="@+id/under_square2"
+        app:layout_constraintEnd_toStartOf="@+id/under_square2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/under_square2"
+        app:layout_constraintTop_toTopOf="@+id/under_square2"
+        app:srcCompat="@drawable/shoe_2" />
+
+    <ImageButton
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/basket_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_home_icon" />
+
+    <ImageButton
+        android:id="@+id/basket_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/settings_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/home_button"
+        app:srcCompat="@drawable/ic_basket_icon" />
+
+    <ImageButton
+        android:id="@+id/settings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/user_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/basket_button"
+        app:srcCompat="@drawable/ic_settings_icon" />
+
+    <ImageButton
+        android:id="@+id/user_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/settings_button"
+        app:srcCompat="@drawable/ic_user_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

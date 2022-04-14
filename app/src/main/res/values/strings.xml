@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JustDoIt</string>
+    <string name="ayakkabiTuru1">Boots</string>
+    <string name="ayakkabiTuru2">Sneakers</string>
+    <string name="ayakkabiTuru3">Sandals</string>
+    <string name="mainText1">Don\'t Try</string>
+    <string name="mainText2">Just Do It.</string>
+    <string name="order">Order Now</string>
+    <string name="tops">Top Sneakers</string>
+    <string name="view">View All</string>
+    <string name="payment1">$ 50</string>
+    <string name="payment2">$ 55</string>
+</resources>

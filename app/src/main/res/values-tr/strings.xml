@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JustDoIt</string>
+    <string name="ayakkabiTuru1">Bot</string>
+    <string name="ayakkabiTuru2">Spor Ayakkabı</string>
+    <string name="ayakkabiTuru3">Sandalet</string>
+    <string name="mainText1">Deneme!</string>
+    <string name="mainText2">Sadece Yap.</string>
+    <string name="order">Sipariş Et</string>
+    <string name="tops">En İyiler</string>
+    <string name="view">Tümünü Gör</string>
+    <string name="payment1">500 ₺</string>
+    <string name="payment2">550 ₺</string>
+</resources>
